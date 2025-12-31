@@ -310,6 +310,8 @@ setCookie("username", user)
 			   <button class="btn btn-success" style="float:right;margin:auto 10px auto auto;" onclick="checkOut()" >Check-Out</button></div></div>`
               
                document.getElementById("flexOutput").innerHTML=returnDiv
+
+	           localStorage.setItem("finalHTML",returnDiv)
                let myPriceArray=new Array()
 			   myPriceArray.push(price)
 
